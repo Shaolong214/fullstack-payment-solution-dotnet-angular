@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YouTube\\Videos\\Angular\\Angular 16\\CRUD with Net Core API\\Project\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {}
+    "/Users/evansxu/Documents/Unimelb/ASP.NET/Asp.Net-Core-Web-API-CRUD-Operations-with-Angular-16-main/PaymentAPI/PaymentAPI/PaymentAPI.csproj": {}
   },
   "projects": {
-    "D:\\YouTube\\Videos\\Angular\\Angular 16\\CRUD with Net Core API\\Project\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {
+    "/Users/evansxu/Documents/Unimelb/ASP.NET/Asp.Net-Core-Web-API-CRUD-Operations-with-Angular-16-main/PaymentAPI/PaymentAPI/PaymentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YouTube\\Videos\\Angular\\Angular 16\\CRUD with Net Core API\\Project\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+        "projectUniqueName": "/Users/evansxu/Documents/Unimelb/ASP.NET/Asp.Net-Core-Web-API-CRUD-Operations-with-Angular-16-main/PaymentAPI/PaymentAPI/PaymentAPI.csproj",
         "projectName": "PaymentAPI",
-        "projectPath": "D:\\YouTube\\Videos\\Angular\\Angular 16\\CRUD with Net Core API\\Project\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
-        "packagesPath": "C:\\Users\\CodAffection\\.nuget\\packages\\",
-        "outputPath": "D:\\YouTube\\Videos\\Angular\\Angular 16\\CRUD with Net Core API\\Project\\PaymentAPI\\PaymentAPI\\obj\\",
+        "projectPath": "/Users/evansxu/Documents/Unimelb/ASP.NET/Asp.Net-Core-Web-API-CRUD-Operations-with-Angular-16-main/PaymentAPI/PaymentAPI/PaymentAPI.csproj",
+        "packagesPath": "/Users/evansxu/.nuget/packages/",
+        "outputPath": "/Users/evansxu/Documents/Unimelb/ASP.NET/Asp.Net-Core-Web-API-CRUD-Operations-with-Angular-16-main/PaymentAPI/PaymentAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CodAffection\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/evansxu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,29 +32,50 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.8.0-3.final, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Features": {
+              "target": "Package",
+              "version": "[4.8.0-3.final, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.8.0-3.final, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[4.8.0-3.final, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.6, )"
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -82,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
