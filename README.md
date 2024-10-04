@@ -1,55 +1,29 @@
-# Asp.Net-Core-Web-API-CRUD-Operations-with-Angular-16
-Demo project showing Asp.Net Core Web API CRUD Operations with Angular 16.
+Payment Details Management Web App
+==================================
 
-Points discussed :
-_____________________
-- Create Asp.Net Core API
-- DEFINE EF Model & DB Context Class
-- DB Migration
-- Create Controller
-- HOW DI Works in ASP.NET Core
-- Things You Should Before Moving to Angular App
-- Case Conversion
-- Create Angular App
-- APP Structure
-- Let's start designing the App
-- Retrive Existing List of Records.
-- Retrieve and Display Existing Records in Angular App.
-- Configure/Enable CORS Policy
-- Render an Array of Objects in Angular
-- Design an Angular Form
-- Submit the Form
-- Reset Form
-- Toast Notification
-- Angular Form Validation
-- Update & Delete Operation
+A web application for managing payment details with full CRUD functionality. Built using **ASP.NET Core**, **Angular**, and **Azure** for secure and efficient payment data management.
 
- ## How it works ?
- 
- 
- :tv: Video tutorial on this same topic  
- Url : https://youtu.be/OZGdKYzUYvU
- 
- <a href="http://www.youtube.com/watch?feature=player_embedded&v=OZGdKYzUYvU
-" target="_blank"><img src="http://img.youtube.com/vi/OZGdKYzUYvU/0.jpg" 
-alt="Video Tutorial for Asp.Net Core 7.0 Web API and Angular 16 CRUD" width="500" height="400" border="10" /></a>
+Features
+--------
 
+-   **CRUD Operations**: Create, Read, Update, and Delete payment details.
+-   **Secure Transactions**: Ensures secure handling of payment data with real-time updates.
+-   **Responsive UI**: User-friendly interface built with Angular and Bootstrap.
+-   **Cloud Integration**: Azure SQL Database for secure data storage.
 
-| :bar_chart:               |  List of Tutorials   |   | :moneybag:           | Support Us                           |
-|--------------------------:|:---------------------|---|---------------------:|:-------------------------------------|
-| Angular                   |http://bit.ly/2KQN9xF |   |Paypal                | https://goo.gl/bPcyXW                |
-| Asp.Net Core              |http://bit.ly/30fPDMg |   |Amazon   Affiliate    | https://geni.us/JDzpE                |
-| React                     |http://bit.ly/325temF |   |
-| Python                    |http://bit.ly/2ws4utg |   | :point_right:        | Follow Us                            |
-| Node.js                   |https://goo.gl/viJcFs |   |Website               |http://www.codaffection.com          |
-| Asp.Net MVC               |https://goo.gl/gvjUJ7 |   |YouTube               |https://www.youtube.com/codaffection  |
-| Flutter                   |https://bit.ly/3ggmmJz|   |Facebook              |https://www.facebook.com/codaffection |
-| Web API                   |https://goo.gl/itVayJ |   |Twitter               |https://twitter.com/CodAffection      |
-| MEAN Stack                |https://goo.gl/YJPPAH |   |
-| C# Tutorial               |https://goo.gl/s1zJxo |   |
-| Asp.Net WebForm           |https://goo.gl/GXC2aJ |   |
-| C# WinForm                |https://goo.gl/vHS9Hd |   |
-| MS SQL                    |https://goo.gl/MLYS9e |   |
-| Crystal Report            |https://goo.gl/5Vou7t |   |
-| CG Exercises in C Program |https://goo.gl/qEWJCs |   |
+Technologies Used
+-----------------
 
+-   **Backend**: ASP.NET Core, Entity Framework Core
+-   **Frontend**: Angular, Bootstrap
+-   **Database**: Azure SQL Database
+-   **Tools**: Swagger for API documentation, CORS for cross-origin requests
+
+API Endpoints
+-------------
+
+-   **GET** `/api/PaymentDetail` - Retrieve all payment details.
+-   **GET** `/api/PaymentDetail/{id}` - Retrieve a specific payment detail.
+-   **POST** `/api/PaymentDetail` - Create a new payment detail.
+-   **PUT** `/api/PaymentDetail/{id}` - Update an existing payment detail.
+-   **DELETE** `/api/PaymentDetail/{id}` - Delete a payment detail.
